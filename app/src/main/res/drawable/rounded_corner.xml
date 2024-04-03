@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFFF00"/>
+    <!-- Set the solid yellow color as background with fade -->
+    <gradient
+        android:startColor="#620443"
+        android:endColor="#E91EA5"
+        android:type="linear"
+        android:angle="0"/>
+
+    <stroke
+        android:width="3dp"
+        android:color="#FFFF00"
+        android:dashWidth="1dp"
+        android:dashGap="0dp"
+        android:alpha="0.8"
+        />
+
+
+    <corners android:radius="20dp"/>  <!-- Radius of the corners -->
+
+</shape>

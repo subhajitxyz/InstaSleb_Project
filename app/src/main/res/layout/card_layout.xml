@@ -1,0 +1,50 @@
+<!-- card_layout.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:elevation="4dp">
+
+    <!-- Your card content here -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical">
+
+        <!-- Add your card content here -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="By Clicking Continues,I Agree That I Am At Least 14 Years Old"
+            app:autoSizeTextType="uniform"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#19941E"
+            app:autoSizeTextType="uniform"
+            android:textColor="#FFFFFF"
+            android:text="Yes,Continue"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#E3B019"
+            android:text="No, I'm not 14"
+            android:textColor="#510B06"
+            app:autoSizeTextType="uniform"/>
+
+        <!-- Add more views as needed -->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
